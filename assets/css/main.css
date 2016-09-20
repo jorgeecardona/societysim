@@ -1,0 +1,15 @@
+/* Custom container */
+
+body {
+    background-image: url("/img/earth_lights_lrg.jpg");
+    background-size: 100%;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+div.hero-unit { 
+    //background-color:rgba(0, 0, 0, 0.7);
+    opacity: 0.9;
+    //background: radial-gradient(ellipse, red, rgba(0,0,0,0));
+    //background-image: url("/img/asanoha-400px.png");
+}
