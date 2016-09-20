@@ -3,5 +3,17 @@ api_version: 1
 threadsafe: true
 
 handlers:
+- url: /bootstrap
+  static_dir: assets/bootstrap
+- url: /img
+  static_dir: assets/img
+- url: /css
+  static_dir: assets/css
 - url: /.*
   script: main.app
+  
+libraries:
+- name: webapp2
+  version: latest
+- name: jinja2
+  version: latest
